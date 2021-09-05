@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+#quote span:first-child {
+  color: black;
+}
+
+#clock,
+form,
+#greeting,
+#todo-list,
+#quote {
+  text-align: center;
+}
+
+#quote {
+  border: thin black 2px;
+}
+
+#weather {
+  position: fixed;
+  top: 20px;
+  left: 90%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: 70%;
+}
